@@ -9,14 +9,14 @@
 
     <EditText
         android:id="@+id/edtA"
-        android:layout_width="wrap_content"
-        android:layout_height="104dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="214dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="148dp"
         android:layout_weight="1"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Number A"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,8 +24,8 @@
         android:id="@+id/btnTong"
         android:layout_width="wrap_content"
         android:layout_height="89dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="148dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="272dp"
         android:layout_weight="1"
         android:text="Tổng"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,23 +35,42 @@
         android:id="@+id/edtB"
         android:layout_width="wrap_content"
         android:layout_height="103dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="148dp"
         android:layout_weight="1"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Number B"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtA"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/edtA" />
 
     <TextView
         android:id="@+id/textViewTong"
-        android:layout_width="79dp"
+        android:layout_width="86dp"
         android:layout_height="33dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="272dp"
         android:text="Tổng là:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTong" />
+
+    <Button
+        android:id="@+id/btnHieu"
+        android:layout_width="92dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="124dp"
+        android:text="Hiệu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtB" />
+
+    <TextView
+        android:id="@+id/textViewHieu"
+        android:layout_width="90dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="124dp"
+        android:text="Hiệu là:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHieu" />
 </android.support.constraint.ConstraintLayout>
