@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Number A"
+        android:hint="Number A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,13 +24,12 @@
         android:id="@+id/btnTong"
         android:layout_width="wrap_content"
         android:layout_height="89dp"
-        android:layout_marginEnd="148dp"
         android:layout_marginTop="44dp"
+        android:layout_marginEnd="148dp"
         android:layout_weight="1"
-        android:text="Button"
+        android:text="Tổng"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtB"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/edtB" />
 
     <EditText
         android:id="@+id/edtB"
@@ -41,7 +40,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Number B"
+        android:hint="Number B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtA"
          />

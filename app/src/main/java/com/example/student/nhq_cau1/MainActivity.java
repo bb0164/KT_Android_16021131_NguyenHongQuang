@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         btnTong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String chuoi1, chuoi2;
+
                 int num_a = Integer.parseInt(edtA.getText().toString());
                 int num_b = Integer.parseInt(edtB.getText().toString());
                 int tong = num_a+ num_b;
 
-                textViewTong.setText(String.valueOf(tong));
+                textViewTong.setText("Tổng là: "+String.valueOf(tong));
 
             }
         });
